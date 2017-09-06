@@ -1,6 +1,6 @@
 baseURL = "http://localhost:8081"
 languageCode = "en-us"
-title = "Developing Transboundary Conservation Network from Mountains to Deep Seas"
+title = "From Mountains to Deep Seas"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
 
@@ -22,14 +22,13 @@ enableRobotsTXT = true
   acceptAbstracts = true
 
 [params.jumbotron]
+  subtitle= "Developing Transboundary Conservation"
   jumbotroImage="img/img-jumbotron-bg.jpg"
   date = "February 3–6, 2018"
   location= "Montenegro"
-  leader= "Be part of the revolution in conversation of wildlife"
 
 [params.form]
-  title = "Send us your abstract"
-
+  title = "Send your abstract"
 
 [params.partners]
     enable = true
@@ -47,8 +46,8 @@ enableRobotsTXT = true
   enable = false
 
 [params.cta]
-  name = "Speak at the conference"
-  url  = "/#section-intro"
+  name = "Send your abstract"
+  url  = "/#section-abstract"
   scroll = true
 
 [params.livestream]
@@ -58,6 +57,10 @@ enableRobotsTXT = true
 
 [menu]
 # Main menu
+[[menu.main]]
+  name = "Home"
+  url  = "/"
+  weight = 1
 
 [[menu.main]]
   name = "Speakers"
@@ -78,10 +81,9 @@ enableRobotsTXT = true
     name = "Information"
     url  = "/Information/"
     weight = 1
-    bla="bla"
 
 [[menu.pages]]
-    name = "Contact"
+    name = "Abstract"
     url  = "/contact/"
     weight = 8
     bla="bla"

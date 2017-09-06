@@ -4,22 +4,22 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-      <img src="{{ .Site.BaseURL }}/img/logo2.png" alt="{{ .Site.Title }}" height="40">
+      <img src="{{ .Site.BaseURL }}/img/logo.png" alt="{{ .Site.Title }}" height="40">
       </a>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     {{ if .Site.Menus.main }}
       <div class="collapse navbar-collapse justify-content-end" id="nav-main-navigation">
         <ul class="navbar-nav ">
+          {{ range .Site.Menus.main }}
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+          {{ end }}
           {{ range .Site.Menus.pages }}
             <li class="nav-item">
               <a class="nav-link" href="{{ .URL }}">{{ .Name }}
                 </a>
-            </li>
-          {{ end }}
-          {{ range .Site.Menus.main }}
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="{{ .URL }}">{{ .Name }}</a>
             </li>
           {{ end }}
         </ul>

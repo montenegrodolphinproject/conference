@@ -30,6 +30,9 @@
 .jumbotron.jumbotron-full .content h1 {
       color: #ffffff;
       font-weight: bold; }
+.jumbotron.jumbotron-full .content h2 {
+      color: #ffffff;
+      font-weight: bold; }
 .jumbotron.jumbotron-full .content p.lead {
       font-size: 24px;
       line-height: 1.5em;
@@ -43,8 +46,6 @@
 @media (max-width: 600px) {
   .jumbotron .content {
     min-height: auto; }
-    .jumbotron .content h1 {
-      font-size: 26px; }
     .jumbotron .content p.lead {
       font-size: 15px; } }
 .sticky .jumbotron-fluid {

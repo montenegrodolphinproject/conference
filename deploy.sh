@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
-
+export HUGO_ENV="production"
 # Build the project.
 hugo -b "http://conference.montenegrodolphinproject.org" # if using a theme, replace with `hugo -t <YOURTHEME>`
 

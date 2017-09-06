@@ -1,11 +1,13 @@
 <div class="jumbotron jumbotron-full text-center" style="background-image: url('{{ .Site.Params.jumbotron.jumbotroImage }}')">
   <div class="content">
     <div class="event-date">{{.Site.Params.jumbotron.date}}, {{.Site.Params.jumbotron.location}}</div>
-    <p class="lead">Marine Mammals Research Association and Natural History Association of Montenegro proudly present:</p>
+    <p class="lead hidden-xs-down">Marine Mammals Research Association and Natural History Association of Montenegro proudly present:</p>
     <h1 class="display-4">{{ $.Site.Title }}</h1>
+    <h2 class="display-5">{{ $.Site.Params.jumbotron.subtitle }}</h2>
     {{ if isset .Site.Params "cta" }}
       <a class="btn btn-secondary btn-lg {{if .Site.Params.cta.scroll}} page-scroll{{end}}" href="{{ .Site.Params.cta.url}}">{{ .Site.Params.cta.name}}</a>
     {{end}}
+
     <p>
       {{ if .Site.Params.livestream.enable }}
         <a href="/livestream/">Watch livestream</a>

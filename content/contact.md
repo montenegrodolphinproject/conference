@@ -1,6 +1,6 @@
 +++
-id = "contact"
-title = "Contact"
+id = "abstract"
+title = "Abstract"
 subtitle = "Our call for speakers is open till 10 december, 2017. Thank you to everyone who put in the time and effort to submit their ideas! We will be in touch soon with the outcome of your submissions."
 banner = "img/flat-banner-bg.jpg"
 +++

@@ -1,0 +1,35 @@
+<section id="section-abstract" class="section-wrapper about-event">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h1>Submit your abstract</h2>
+        <p class="lead">
+          Interested in speaking at the DMAD cetaceans conference 2018.
+        </p>
+        <p>With our conference date rapidly approaching, we launched our Call for Speakers this week. We are really excited about this year’s lineup of topics and are looking for great customers to help us round out our roster. A reminder that we are looking for speakers, not fully baked presentations.</p>
+        <p>Speaking at the conference is a fantastic experience and if you have ever attended, you know that the quality of session speakers is extremely high. If you are thinking “Hey, I have a great story to tell and I should submit my idea!” Well if that’s the case then here are a few tips and guidelines to give you an idea of what we’re looking for.</p>
+
+        <strong>For 40 minute sessions, we’re looking for speakers that:</strong>
+        <ul>
+          <li>Have a great story to tell and a passion for sharing your knowledge with others</li>
+          <li>Help solve common challenges</li>
+          <li>Provide clear successful use cases, best practices, teachings and how-to’s</li>
+          <li>Can go deep on how your company is using Salesforce including the roll-out</li>
+          <li>Highlight the ROI and additional benefits your company and team has seen since implementing Salesforce</li>
+        </ul>
+        <a href="/contact" class="btn btn-primary">Read more</a>
+      </div>
+      <div class="col-md-4 gray-bg">
+        {{ if .Site.Params.acceptAbstracts }}
+        <div class="form-wrapper">
+          <h2>{{ .Site.Params.form.title }}</h2>
+          {{ partial "widgets/submission-form.html" . }}
+        </div>
+        {{ else }}
+          <p> sending abstract is closed</p>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- .about-event -->
