@@ -8,7 +8,6 @@ defaultContentLanguage = "en"
 googleAnalytics = "UA-105570372-2"
 theme = "conference"
 enableRobotsTXT = true
-publishDir= "docs"
 
 [params]
   copyright= "Copyright (c) 2017, DMAD; all rights reserved."
