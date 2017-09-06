@@ -19,6 +19,8 @@ enableRobotsTXT = true
       <br>Montenegro
       <br>
   """
+  description = "Conference about developing a transboundary conservation network from mountains to deep seas"
+  author = "Lasse Capel"
   acceptAbstracts = true
 
 [params.jumbotron]
