@@ -5,7 +5,7 @@ title = "From Mountains to Deep Seas"
 defaultContentLanguage = "en"
 
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = "UA-105570372-2"
+googleAnalytics = "UA-105570372-3"
 theme = "conference"
 enableRobotsTXT = true
 
