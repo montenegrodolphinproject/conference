@@ -11,15 +11,15 @@
     {{ if .Site.Menus.main }}
       <div class="collapse navbar-collapse justify-content-end" id="nav-main-navigation">
         <ul class="navbar-nav text-center">
-          {{ range .Site.Menus.main }}
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="{{ .URL }}">{{ .Name }}</a>
-            </li>
-          {{ end }}
           {{ range .Site.Menus.pages }}
             <li class="nav-item">
               <a class="nav-link" href="{{ .URL }}">{{ .Name }}
                 </a>
+            </li>
+          {{ end }}
+          {{ range .Site.Menus.main }}
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="{{ .URL }}">{{ .Name }}</a>
             </li>
           {{ end }}
         </ul>

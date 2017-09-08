@@ -12,10 +12,11 @@ function initGoogleMap(el, lat, lng) {
 
   //google map custom marker icon
   var $marker_url = 'img/google-map-marker.png';
+  var location = new google.maps.LatLng(lat, lng);
 
   //set google map options
   var map_options = {
-    center: new google.maps.LatLng(lat, lng),
+    center: location,
     zoom: $map_zoom,
     panControl: false,
     zoomControl: false,
@@ -28,7 +29,7 @@ function initGoogleMap(el, lat, lng) {
   var map = new google.maps.Map(el, map_options);
   //add a custom marker to the map
   var marker = new google.maps.Marker({
-    position: new google.maps.LatLng(lat, lng),
+    position: location,
     map: map,
     visible: true,
     icon: $marker_url,

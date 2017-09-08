@@ -59,34 +59,33 @@ enableRobotsTXT = true
 
 
 [menu]
-# Main menu
-[[menu.main]]
-  name = "Home"
-  url  = "/"
-  weight = 1
 
 [[menu.main]]
   name = "Speakers"
   url  = "/#section-speaker"
-  weight = 2
-
-[[menu.main]]
-  name = "Partners"
-  url = "/#section-partner"
-  weight = 5
+  weight = 1
 
 [[menu.main]]
   name = "Venue"
   url ="/#section-venue"
-  weight = 6
+  weight = 2
+
+[[menu.main]]
+  name = "Contact"
+  url ="/#section-contact"
+  weight = 3
 
 [[menu.pages]]
-    name = "Information"
-    url  = "/Information/"
-    weight = 1
+  name = "Home"
+  url  = "/"
+  weight = 1
 
 [[menu.pages]]
-    name = "Abstract"
-    url  = "/contact/"
-    weight = 8
-    bla="bla"
+  name = "Abstract"
+  url  = "/contact/"
+  weight = 2
+
+[[menu.pages]]
+  name = "Information"
+  url  = "/Information/"
+  weight = 3
