@@ -1,4 +1,4 @@
-<nav class="navbar navbar-toggleable-md main-menu" role="navigation">
+<nav class="navbar navbar-toggleable-sm navbar-light main-menu" role="navigation">
   <div class="container">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#nav-main-navigation" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -10,7 +10,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     {{ if .Site.Menus.main }}
       <div class="collapse navbar-collapse justify-content-end" id="nav-main-navigation">
-        <ul class="navbar-nav ">
+        <ul class="navbar-nav text-center">
           {{ range .Site.Menus.main }}
             <li class="nav-item">
               <a class="nav-link page-scroll" href="{{ .URL }}">{{ .Name }}</a>

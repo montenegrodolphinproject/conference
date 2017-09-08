@@ -1,3 +1,4 @@
+import 'bootstrap/js/dist/scrollspy';
 import styles from './../css/main.sass';
 import initGoogleMap from './googleMap';
 import navigation from './navigation';

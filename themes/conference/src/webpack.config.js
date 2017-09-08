@@ -4,6 +4,7 @@ var webpack = require('webpack');
 module.exports = {
   entry: {
     app: './js/main.js',
+    vendor: ['jquery', 'tether', 'bootstrap'],
   },
   module: {
     rules: [
@@ -43,10 +44,20 @@ module.exports = {
 
   plugins: [
     new ExtractTextPlugin('main.css'),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'vendor',
+      filename: 'vendor.bundle.js',
+      minChunks: Infinity,
+    }),
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery',
+      'window.jQuery': 'jquery',
+      Popper: ['popper.js', 'default'],
+      Tether: 'tether',
+      ScrollSpy: 'exports-loader?Util!bootstrap/js/dist/scrollspy',
     }),
+    new webpack.optimize.UglifyJsPlugin(),
   ],
   watchOptions: {
     watch: true,
