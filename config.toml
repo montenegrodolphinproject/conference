@@ -22,6 +22,7 @@ enableRobotsTXT = true
   description = "Conference about developing a transboundary conservation network from mountains to deep seas"
   author = "Lasse Capel"
   acceptAbstracts = true
+  googleMapsApiKey = "AIzaSyCwOAT_sC03FGB3Ctq9cmtbULGu2zeKwwA"
 
 [params.jumbotron]
   subtitle= "Developing Transboundary Conservation"

@@ -13,26 +13,6 @@ function initGoogleMap(el, lat, lng) {
   //google map custom marker icon
   var $marker_url = 'img/google-map-marker.png';
 
-  //we define here the style of the map
-  var style = [
-    {
-      stylers: [
-        {
-          hue: '#aaa',
-        },
-        {
-          saturation: 100,
-        },
-        {
-          gamma: 1.15,
-        },
-        {
-          lightness: 5,
-        },
-      ],
-    },
-  ];
-
   //set google map options
   var map_options = {
     center: new google.maps.LatLng(lat, lng),
@@ -43,7 +23,6 @@ function initGoogleMap(el, lat, lng) {
     streetViewControl: false,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     scrollwheel: false,
-    styles: style,
   };
   //initialize the map
   var map = new google.maps.Map(el, map_options);

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ $.Site.LanguageCode | default "en" }}">
 {{ block "head" . }}{{ partial "head.html" .}}{{ end }}
-  <body id="page-top" data-spy="scroll" data-target=".navbar" class="{{ with getenv "HUGO_ENV" }}{{ . }}{{ end }}">
+  <body id="page-top" data-spy="scroll" data-target="#main-navigation" class="{{ with getenv "HUGO_ENV" }}{{ . }}{{ end }}">
     <div id="main-wrapper">
       {{ block "header" . }}{{ partial "header.html" .}}{{ end }}
       {{ block "main" . }}{{ end }}
