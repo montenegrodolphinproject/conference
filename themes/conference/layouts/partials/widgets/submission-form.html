@@ -1,15 +1,15 @@
-<form action="https://getsimpleform.com/messages?form_api_token=7e222ceed393366532e4948e9aeb5b1f" method="POST" enctype="multipart/form-data">
+<form action="https://getsimpleform.com/messages?form_api_token={{.Site.Params.form.apiToken}}" method="POST" enctype="multipart/form-data">
   <div class="form-group">
-    <label for="name">Full name</label><br>
+    <label for="name">Full name</label>
     <input type="text" name="name" class="form-control" placeholder="Name" id="name" required>
   </div>
   <div class="form-group">
-    <label for="_replyto">Your email</label><br>
+    <label for="_replyto">Your email</label>
     <input type="email" name="email" class="form-control" placeholder="example@domain.com" id="_replyto" required>
   </div>
 
   <div class="form-group">
-    <label for="message">Your message</label><br>
+    <label for="message">Your message</label>
     <textarea name="message" rows="4" class="form-control" placeholder="Message" id="message" required></textarea>
   </div>
 
@@ -27,7 +27,7 @@
   <label class="custom-file" for="attachment">Conference Abstract</label>
   <input name="attachment" type="file" class="form-control-file" id="attachment" aria-describedby="attachment" accept="application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint,
 text/plain, application/pdf, image/*" required>
-  <small id="attachment" class="form-text text-muted">Upload abstract as word file.</small>
+  <small id="attachment" class="form-text text-muted">Upload abstract as word document.</small>
 </div>
 
   <input type='hidden' name='redirect_to' value='{{.Site.BaseURL}}/thank-you' />

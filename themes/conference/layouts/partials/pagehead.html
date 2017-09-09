@@ -4,6 +4,8 @@
 {{ end }}>
   <div class="container">
     <h1 class="display-3 text-white">{{.Params.title}}</h1>
-    <p class="lead text-white">{{.Params.subtitle}}</p>
+    {{ if isset .Params "subtitle" }}
+      <p class="lead text-white accent">{{.Params.subtitle}}</p>
+    {{ end }}
   </div>
 </div>

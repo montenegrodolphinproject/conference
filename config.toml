@@ -24,6 +24,7 @@ enableRobotsTXT = true
   acceptAbstracts = true
   googleMapsApiKey = "AIzaSyCwOAT_sC03FGB3Ctq9cmtbULGu2zeKwwA"
 
+
 [params.jumbotron]
   subtitle= "Developing Transboundary Conservation"
   jumbotroImage="img/img-jumbotron-bg.jpg"
@@ -32,6 +33,7 @@ enableRobotsTXT = true
 
 [params.form]
   title = "Send your abstract"
+  apiToken= "66e16fef2c878cce980c10f982e9904a"
 
 [params.partners]
     enable = true
@@ -39,7 +41,7 @@ enableRobotsTXT = true
     # at 'exampleSite/data/partners'.
     # For more informtion take a look at the README.
     title = "Partners"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+    subtitle = "We would like to warmly thank all the partners and supporters which have made this conference possible."
 
 [params.speakers]
   enable = true
@@ -82,7 +84,7 @@ enableRobotsTXT = true
 
 [[menu.pages]]
   name = "Abstract"
-  url  = "/contact/"
+  url  = "/abstract/"
   weight = 2
 
 [[menu.pages]]

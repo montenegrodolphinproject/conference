@@ -18,7 +18,7 @@
   .content
     color: #ffffff
     position: absolute
-    top: 50%
+    top: 45%
     left: 0
     right: 0
     height: 30%
@@ -33,11 +33,8 @@
       font-weight: bold
     h2
       color: #ffffff
+
       font-weight: bold
-    p.lead
-      font-size: 24px
-      line-height: 1.5em
-      color: rgba(255, 255, 255, 0.7)
     .event-date
       text-transform: uppercase
       font-size: 24px
@@ -45,11 +42,18 @@
   .btn
     margin-top: 40px
 
+.jumbotron
+  p.lead
+    font-size: 24px
+    line-height: 1.5em
+    color: rgba(255, 255, 255, 0.7)
+    &.accent
+      max-width: 650px;
+      background-color: rgba(0,0,0,0.3);
+      padding: 5px 10px;
+
 @media (max-width: 600px)
   .jumbotron .content
     min-height: auto
     p.lead
       font-size: 15px
-
-.sticky .jumbotron-fluid
-  margin-top: 118px
