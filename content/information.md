@@ -5,7 +5,7 @@ banner = "img/flat-banner-bg2.jpg"
 +++
 
 # Conference mission
-- Effective nature conservation is only possible with transboundary research efforts,
+Effective nature conservation is only possible with transboundary research efforts,
 particularly if the target animals rely on long migration routes for their survival.
 There are over 100 projects in the Balkans and Turkey supported by Rufford Small Grants,
 many of which have the same target species and aims. However, with the differences in their methodology and scope,
@@ -15,8 +15,9 @@ tool for the protection of both species and surrounding ecosystem.
 
 This conference will create the perfect chance to establish these connections and start
 planning the first steps towards transboundary conservation strategies, through
-the development of a cross-border online network “*Adriatic Nature Conservation Database*”.
-- Several research and nature conservation projects have been conducted in the Adriatic,
+the development of a cross-border online network “Adriatic Nature Conservation Database”.
+
+Several research and nature conservation projects have been conducted in the Adriatic,
 but only a few of them have obtained solid outcomes.
 The development of a cross-border online network for the East Adriatic will not only allow
 for a standardized data collection process, according to the subjects or taxa,
@@ -61,5 +62,7 @@ Transport from either airport is straightforward with regular buses running to U
 # Contact info<a name="contact"></a>
 
 Dr. Aylin Akkaya Bas
+
 Head research coordinator at DMAD
+
 info@dmad.org.tr
