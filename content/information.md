@@ -13,15 +13,15 @@ the potential to reach a common goal and create transboundary conservation measu
 It has been already been proven that cross-boundary protected areas are the strongest
 tool for the protection of both species and surrounding ecosystem.
 
-This conference will create the perfect chance to establish these connections and start
-planning the first steps towards transboundary conservation strategies, through
-the development of a cross-border online network “Adriatic Nature Conservation Database”.
-
 Several research and nature conservation projects have been conducted in the Adriatic,
 but only a few of them have obtained solid outcomes.
 The development of a cross-border online network for the East Adriatic will not only allow
 for a standardized data collection process, according to the subjects or taxa,
 but it will also help researchers to analyse their data under the supervision of statistical experts.
+
+This conference will create the perfect chance to establish these connections and start
+planning the first steps towards transboundary conservation strategies, through
+the development of a cross-border online network “Adriatic Nature Conservation Database”.
 
 # Organisation
 [DMAD](http://www.dmad.org.tr), the Marine Mammal Research Association, is a non-profit
@@ -59,10 +59,16 @@ Ulcinj is easily accessible by car, bus or train. Speakers coming from distant o
 
 Transport from either airport is straightforward with regular buses running to Ulcinj. The Albatros Hotel is just a short taxi ride from Ulcinj.
 
+# Visitors<a name="visitor"></a>
+
+Are you interested in the topics and outcomes of the conference but you don't want to present a talk or a poster?
+Any person who has a deep desire on nature conservation is welcome to join the conference.
+Please [send us an email](mailto:info@dmad.org.tr?subject=I would like to visit the conference) with a short description of your background and your interest and we will get in touch with you shortly.
+
 # Contact info<a name="contact"></a>
 
 Dr. Aylin Akkaya Bas
 
 Head research coordinator at DMAD
 
-info@dmad.org.tr
+[info@dmad.org.tr](mailto:info@dmad.org.tr)

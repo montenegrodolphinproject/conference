@@ -26,6 +26,11 @@ import navigation from './navigation';
       ev.preventDefault();
       var $anchor = $(ev.currentTarget);
       var href = $anchor.attr('href');
+      if (href.indexOf('section') == -1) {
+        window.location.href = href;
+        return;
+      }
+
       var el = $(href.charAt(0) === '/' ? href.substr(1) : href);
       $('html, body').stop().animate(
         {

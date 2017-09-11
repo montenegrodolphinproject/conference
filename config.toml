@@ -19,14 +19,14 @@ enableRobotsTXT = true
       <br>Montenegro
       <br>
   """
-  description = "Conference about developing a transboundary conservation network from mountains to deep seas"
+  DefaultDescription = "Ruffords Conference about developing a transboundary conservation network from mountains to deep seas. By DMAD, NHAM and the Montenegro Dolphin Project"
   author = "Lasse Capel"
   acceptAbstracts = true
   googleMapsApiKey = "AIzaSyCwOAT_sC03FGB3Ctq9cmtbULGu2zeKwwA"
 
 
 [params.jumbotron]
-  subtitle= "Developing Transboundary Conservation"
+  subtitle= "Research & Conservation Beyond Boundaries"
   jumbotroImage="img/img-jumbotron-bg.jpg"
   date = "February 3–6, 2018"
   location= "Montenegro"
@@ -74,7 +74,7 @@ enableRobotsTXT = true
 
 [[menu.main]]
   name = "Contact"
-  url ="/#section-contact"
+  url ="/information#contact"
   weight = 3
 
 [[menu.pages]]
