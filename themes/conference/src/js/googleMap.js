@@ -7,7 +7,7 @@ function initGoogleMap(el, lat, lng) {
     return;
   }
   //set your google maps parameters
-  var $map_zoom = 17;
+  var $map_zoom = 18;
   /* ZOOM SETTING */
 
   //google map custom marker icon

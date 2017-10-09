@@ -43,7 +43,7 @@ research through public awareness initiatives informing citizens of the state of
 
 ## Date & Venue
 
-The DMAD and NHAM Rufford conference will take place from the **3rd to the 6th of February, 2017** at the Albatros Hotel, Ulcinj, Montenegro.
+The DMAD and NHAM Rufford conference will take place from the **3rd to the 6th of February, 2017** at the sidro Hotel, Bar, Montenegro.
 
 ## Topics and Language
 
@@ -55,9 +55,9 @@ All talks and presentations must be in English.
 
 # Travel & Transport<a name="transport"></a>
 
-Ulcinj is easily accessible by car, bus or train. Speakers coming from distant overseas countries can fly to Podgorica airport or Tivat airport.
+Bar is easily accessible by car, bus or train. Speakers coming from distant overseas countries can fly to Podgorica airport or Tivat airport.
 
-Transport from either airport is straightforward with regular buses running to Ulcinj. The Albatros Hotel is just a short taxi ride from Ulcinj.
+Transport from either airport is straightforward with regular buses running to Bar. Hotel Sidro is just a short taxi ride from Bar bus station.
 
 # Visitors<a name="visitor"></a>
 

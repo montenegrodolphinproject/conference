@@ -11,11 +11,11 @@ enableRobotsTXT = true
 
 [params]
   copyright= "Copyright (c) 2017, DMAD; all rights reserved."
-  latitude = "41.9192077"
-  longitude = "19.2158175"
-  address = """<strong>Hotel Albatros</strong>
-      <br>Steva Djakonovica bb
-      <br>85360 Ulcinj
+  latitude = "42.093673"
+  longitude = "19.09414"
+  address = """<strong>Hotel Sidro</strong>
+      <br>Obala 13.jula
+      <br>85000 Bar
       <br>Montenegro
       <br>
   """
