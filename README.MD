@@ -16,7 +16,11 @@ Make sure to use the `--recursive` flasg to check out the submodules.
 
 
 ## Deploy
-run deploy script;
+
+Always deploy using this script. Pushing to the submodule imidiately could cause the website to break.
+Run deploy script;
 ```./deploy.sh```
 
-The script makes a hugo production build in the `/public` folder. The code is committed on the submodule and pushed to github (github).
+The script makes a hugo production build in the `/public` folder. The code is committed on the submodule and pushed to github [github](https://github.com/montenegrodolphinproject/montenegrodolphinproject.github.io.git).
+
+Make sure to commit your changes to the working repository!
